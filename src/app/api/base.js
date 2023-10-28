@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URI = 'https://progwebti2-grupo2-webapp.azurewebsites.net';
+const URI = 'http://localhost:8080/api/v1';
 
 const get = async (endpoint) => {
     try {
